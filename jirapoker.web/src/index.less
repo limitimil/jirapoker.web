@@ -1,6 +1,6 @@
-@import '~iview/src/styles/index.less';
-@import './assets/styles/font-awesome/less/fontawesome.less';
-@import './assets/styles/font-awesome/less/solid.less';
+@import "~iview/src/styles/index.less";
+@import "./assets/styles/font-awesome/less/fontawesome.less";
+@import "./assets/styles/font-awesome/less/solid.less";
 
 // For dard theme on side menus
 // @menu-dark-title: #001529;
@@ -30,7 +30,6 @@
 @content-bottom-padding: 56;
 @content-left-padding: 30;
 
-
 .container-fluid.content-wrapper {
   padding: 0px;
   height: 100%;
@@ -43,19 +42,19 @@
       font-size: 20px;
       color: #4a4a4a;
     }
-    .card.form{
-      width:92%;
+    .card.form {
+      width: 92%;
       margin-left: 4%;
       margin-right: 4%;
       font-size: 17px;
       background-color: #f2f8ff;
-      border-width:1px; 
-      border-style:solid; 
-      border-color:#2d8cf0;
+      border-width: 1px;
+      border-style: solid;
+      border-color: #2d8cf0;
       .opt-row {
         padding: 10px 60px 10px 0px;
       }
-      .card-footer{
+      .card-footer {
         background-color: #ffffff;
         border-top: solid 1px #2d8cf0;
       }
@@ -77,7 +76,7 @@
         }
       }
     }
-    .row{
+    .row {
       margin: 0px;
     }
   }
@@ -85,8 +84,8 @@
     // background-color: #ffffff;
     width: 100%;
     // margin-bottom: 100px;
-    padding: @content-top-padding*1px @content-right-padding*1px
-      0px @content-left-padding*1px;
+    padding: @content-top-padding*1px @content-right-padding*1px 0px
+      @content-left-padding*1px;
 
     .content-title {
       font-size: 20px;
@@ -136,7 +135,7 @@
     background-color: #f4f4f4;
     width: 100%;
     margin-top: 240px;
-    .row{
+    .row {
       text-align: center;
       padding: 15px 0px;
       font-size: 12px;
@@ -145,14 +144,13 @@
   }
 }
 
-
 // use for UI
 
-.top-margin-buffer{
+.top-margin-buffer {
   margin-top: 20px;
 }
 
-.bottom-margin-buffer{
+.bottom-margin-buffer {
   margin-bottom: 26px;
 }
 
@@ -163,7 +161,6 @@
   -ms-transform: translate(-50%, -50%);
   transform: translate(0%, -50%);
 }
-
 
 // table style
 .VueTables__limit-field {
@@ -189,7 +186,7 @@
 }
 
 .table-responsive {
-  .table-bordered{
+  .table-bordered {
     background-color: #ffffff !important;
     font-size: 14px;
     border-color: #dddddd;
@@ -240,7 +237,7 @@
     height: 17px;
     font-family: PingFangTC;
     font-size: 14px;
-    color: #4A4A4A;
+    color: #4a4a4a;
     label.ivu-checkbox-wrapper {
       margin: 0 0 0 0;
       vertical-align: middle;
@@ -260,7 +257,7 @@
         float: none;
       }
     }
-   }
+  }
 }
 
 .VuePagination__count {
@@ -268,18 +265,18 @@
 }
 
 .table-selected-background {
-  background-color: #F2F8FF !important;
+  background-color: #f2f8ff !important;
 }
 
 // form check style
-.ivu-form-item-error .ivu-input{
-  border-color: #D93025;
+.ivu-form-item-error .ivu-input {
+  border-color: #d93025;
 }
 
 .is-invalid {
   font-size: 10px;
   font-weight: bold;
-  color: #D93025;
+  color: #d93025;
 }
 
 .is-valid {
@@ -288,33 +285,33 @@
 }
 
 // toast style
-.toast-top-center{
-  padding-top:50px;
-  .toast.toast-info{
-    border-color: #47C247;  
-    color: #47C247 !important;  
+.toast-top-center {
+  padding-top: 50px;
+  .toast.toast-info {
+    border-color: #47c247;
+    color: #47c247 !important;
     box-shadow: 0 2px 10px 0 rgba(71, 194, 71, 0.3) !important;
-    .toast-message:before{
+    .toast-message:before {
       font-family: "Font Awesome 5 Free";
       padding-right: 15px;
-      content: '\F00C';
+      content: "\F00C";
       height: 11px;
     }
   }
-  .toast.toast-success{
-    border-color: #47C247;  
-    color: #47C247 !important;  
+  .toast.toast-success {
+    border-color: #47c247;
+    color: #47c247 !important;
     box-shadow: 0 2px 10px 0 rgba(71, 194, 71, 0.3) !important;
-    .toast-message:before{
+    .toast-message:before {
       font-family: "Font Awesome 5 Free";
       padding-right: 15px;
-      content: '\F00C';
+      content: "\F00C";
       height: 11px;
     }
   }
-  .toast.toast-error{
-    border-color: #D93025;
-    color: #D93025 !important;
+  .toast.toast-error {
+    border-color: #d93025;
+    color: #d93025 !important;
     box-shadow: 0 2px 10px 0 rgba(217, 48, 37, 0.3) !important;
     .toast-message:before {
       font-family: "Font Awesome 5 Free";
@@ -323,20 +320,20 @@
       height: 14px;
     }
   }
-  .toast.toast-warning{
-    border-color: #FE980A;
-    color: #FE980A !important;
+  .toast.toast-warning {
+    border-color: #fe980a;
+    color: #fe980a !important;
     box-shadow: 0 2px 10px 0 rgba(254, 152, 10, 0.3) !important;
-    .toast-message:before{
+    .toast-message:before {
       font-family: "Font Awesome 5 Free";
       padding-right: 15px;
-      content: '\F00D';
+      content: "\F00D";
       height: 15px;
     }
   }
 }
 
-.toast{
+.toast {
   padding: 17px 20px !important;
   width: 500px !important;
   font-weight: bold;
@@ -345,7 +342,7 @@
 
 // button style
 .ivu-btn {
-  font-size:14px;
+  font-size: 14px;
 }
 
 // modal
@@ -355,18 +352,18 @@
 }
 
 .custom-modal-icon {
-  color:#ff8c1a;
+  color: #ff8c1a;
   font-size: 20px;
 }
 
 .custom-modal-title {
-  color: #4A4A4A;
+  color: #4a4a4a;
   font-size: 16px;
   font-weight: bold;
   padding-bottom: 10px;
 }
 
-.custom-modal-content{
+.custom-modal-content {
   font-size: 14px;
   padding-left: 35px;
 }
@@ -388,12 +385,12 @@ a.custom {
   font-size: 14px;
   color: #2d8cf0 !important;
 }
-a.custom:hover{
+a.custom:hover {
   color: #57a3f3 !important;
-  text-decoration:underline !important;
+  text-decoration: underline !important;
 }
 
-// filter 
+// filter
 .filter-title {
   margin-bottom: 10px;
   font-size: 13px;
@@ -401,7 +398,7 @@ a.custom:hover{
 }
 
 // transfer
-.ivu-transfer-list-header{
+.ivu-transfer-list-header {
   label.ivu-checkbox-wrapper.ivu-checkbox-default {
     margin-bottom: 0;
   }
@@ -422,9 +419,9 @@ a.custom:hover{
 
 // checkbox
 .ivu-checkbox.ivu-checkbox-disabled {
-    span.ivu-checkbox-inner {
-        background-color: #dddddd !important;
-    }
+  span.ivu-checkbox-inner {
+    background-color: #dddddd !important;
+  }
 }
 
 // textarea
@@ -434,13 +431,14 @@ textarea.ivu-input {
 }
 
 // tooltip
-.ivu-tooltip-popper.ivu-tooltip-dark .ivu-tooltip-inner.ivu-tooltip-inner-with-width{
+.ivu-tooltip-popper.ivu-tooltip-dark
+  .ivu-tooltip-inner.ivu-tooltip-inner-with-width {
   text-align: left;
 }
 
-td .text-truncate-tooltip .ivu-tooltip .ivu-tooltip-rel{
+td .text-truncate-tooltip .ivu-tooltip .ivu-tooltip-rel {
   vertical-align: bottom;
-}}
+}
 
 // collapse
 .ivu-collapse {
